@@ -173,6 +173,9 @@ def run_model(model, optimizer, data):
 def main():
     data = getattr(kgpy.datasets, args.dataset.upper())(inverse=args.inverse)
 
+    if not torch.cuda.is_available():
+        args.device = "cpu"
+
     model = get_model(data)
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
 

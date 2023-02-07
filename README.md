@@ -60,8 +60,6 @@ cd scripts/kg_mixup
 bash conve_fb15k237.sh
 ```
 
-By default all scripts will attempt to run on cuda. If a cuda GPU isn't available
-
 ## Cite
 ```
 @inproceedings{

@@ -90,7 +90,7 @@ class SyntheticGenerator:
         """
         trips = set()
 
-        for t in tqdm(self.data["train"], "Calculating Infinity"):
+        for t in tqdm(self.data["train"], "Trips to Augment"):
 
             if self.ent_rel_degree[(t[1], t[2])] < self.threshold:
                 trips.add(t)
