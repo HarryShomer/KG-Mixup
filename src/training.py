@@ -750,7 +750,7 @@ class LossTrainer(BaseTrainer):
 
         if self.strategy_name == "focal":
             loss_weights = torch.where(all_lbls == 1, torch.sigmoid(all_scores), 1 - torch.sigmoid(all_scores))
-            loss_weights = (1 - loss_weights)  # This equivalent to \gamma=1
+            loss_weights = (1 - loss_weights)  # This is equivalent to \gamma=1
             loss = binary_cross_entropy_with_logits(all_scores, smooth_lbls, weight=loss_weights.detach(), reduction="mean")
         else:
             loss_weights = self._calc_trip_weights(trips)
