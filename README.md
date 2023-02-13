@@ -1,6 +1,6 @@
 # KG-Mixup
 
-Official Implementation of the paper ["Toward Degree Bias in Embedding-Based Knowledge Graph Completion"]() (WWW 2023). 
+Official Implementation of the paper ["Toward Degree Bias in Embedding-Based Knowledge Graph Completion"](https://arxiv.org/abs/2302.05044) (WWW 2023). 
 
 ## Abstract
 
