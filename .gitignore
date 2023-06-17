@@ -15,6 +15,7 @@ build/
 *.drawio
 data/
 *.bkp
+www_figs.py
 
 pair_t_test.py
 tune_model.py 

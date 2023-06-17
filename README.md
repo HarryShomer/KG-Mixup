@@ -62,11 +62,11 @@ bash conve_fb15k237.sh
 
 ## Cite
 ```
-@inproceedings{
-    shomer23degree,
-    title={Toward Degree Bias in Embedding-Based Knowledge Graph Completion},
-    author={Harry Shomer and Wei Jin and Wentao Wang and Jiliang Tang},
-    booktitle={Proceedings of the ACM Web Conference 2023},    
-    year={2023},
+@inproceedings{shomer2023toward,
+  title={Toward Degree Bias in Embedding-Based Knowledge Graph Completion},
+  author={Shomer, Harry and Jin, Wei and Wang, Wentao and Tang, Jiliang},
+  booktitle={Proceedings of the ACM Web Conference 2023},
+  pages={705--715},
+  year={2023}
 }
 ```
